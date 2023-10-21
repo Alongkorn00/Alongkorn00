@@ -1,0 +1,21 @@
+NOFACE_Run = 9 ;
+NOFACE_TOA = -1 ;
+
+while (NOFACE_Run <= 98 )
+{
+NOFACE_Run = NOFACE_Run +1 ;
+sendText(NOFACE_Run);
+setSelection(0,2);
+sleep(NOFACE_Sleep);
+}
+setSelection(0,2);
+sendText(0);
+while (NOFACE_TOA <= 8 )
+{
+NOFACE_TOA = NOFACE_TOA +1 ;
+sendText(NOFACE_TOA);
+setSelection(1,2);
+sleep(NOFACE_Sleep);
+}
+setSelection(0,2);
+sleep(NOFACE_Sleep);
